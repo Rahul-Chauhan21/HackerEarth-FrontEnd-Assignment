@@ -10,7 +10,7 @@ function Subtotal({ amount, total, discount, typedDiscount }) {
             <div className="order__info">
               <h3 style={{ marginTop: "10px" }}>Total</h3>
               <p style={{ marginTop: "10px" }}>
-                Items ({amount}): {total}
+                Items ({amount}): ${total}
               </p>
               <p style={{ marginTop: "10px" }}>Discount: -${discount}</p>
               <p>Type Discount: -${typedDiscount}</p>
